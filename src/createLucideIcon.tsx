@@ -81,14 +81,14 @@ const ComponentMap = {
   },
   polygon: {
     Component: Points,
-    props: { mode: "polygon", ...childDefaultAttributes },
+    props: { mode: "polygon", ...childDefaultAttributes } as PointsProps,
     attrMapper: ({ points = "" }: IconNodeAttrs["polygon"]) => ({
       points: createPointPairs(points),
     }),
   },
   polyline: {
     Component: Points,
-    props: { mode: "polygon", ...childDefaultAttributes },
+    props: { mode: "polygon", ...childDefaultAttributes } as PointsProps,
     attrMapper: ({ points = "" }: IconNodeAttrs["polyline"]) => ({
       points: createPointPairs(points),
     }),
