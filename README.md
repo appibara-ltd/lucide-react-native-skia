@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-Lucide icon library for React Native applications.
+Lucide icon library for React Native Skia applications.
 </p>
 
 <div align="center">
