@@ -1,0 +1,67 @@
+{
+  "name": "@appibara/lucide-react-native-skia",
+  "description": "A Lucide icon library package for React Native Skia applications.",
+  "version": "0.546.0",
+  "license": "ISC",
+  "homepage": "https://lucide.dev",
+  "bugs": "https://github.com/lucide-icons/lucide/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appibara-ltd/lucide-react-native-skia.git"
+  },
+  "keywords": [
+    "Lucide",
+    "React Native",
+    "React Native Skia",
+    "Feather",
+    "Icons",
+    "Icon",
+    "SVG",
+    "Feather Icons",
+    "Fontawesome",
+    "Font Awesome"
+  ],
+  "author": "Orkun Tumer",
+  "amdName": "lucide-react-native-skia",
+  "main": "dist/cjs/lucide-react-native-skia.js",
+  "main:umd": "dist/umd/lucide-react-native-skia.js",
+  "module": "dist/esm/lucide-react-native-skia.js",
+  "unpkg": "dist/umd/lucide-react-native-skia.min.js",
+  "typings": "dist/lucide-react-native-skia.d.ts",
+  "react-native": "dist/esm/lucide-react-native-skia.js",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm clean && pnpm copy:license && pnpm build:bundles",
+    "copy:license": "cp node_modules/lucide-react-native/LICENSE ./LICENSE",
+    "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons",
+    "build:bundles": "cp -R node_modules/lucide-react-native/dist/esm/icons/ src/icons/ && rollup -c ./rollup.config.mjs",
+    "test": "pnpm build:icons && vitest run",
+    "version": "pnpm version --git-tag-version=false"
+  },
+  "devDependencies": {
+    "@lucide/rollup-plugins": "^1.0.0",
+    "@shopify/react-native-skia": "^2.2.21",
+    "@types/react": "^19.1.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "jest-serializer-html": "^7.1.0",
+    "lucide-react-native": "^0.546.0",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "rollup": "^4.22.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.6",
+    "vitest": "^3.1.3"
+  },
+  "peerDependencies": {
+    "@shopify/react-native-skia": "^2.2.21",
+    "react": "^19.0.0",
+    "react-native": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
