@@ -34,12 +34,12 @@
     "dist"
   ],
   "scripts": {
-    "build": "pnpm clean && pnpm copy:license && pnpm build:bundles",
+    "build": "npm run clean && npm run sync-version &&  npm run copy:license && npm run build:bundles",
     "copy:license": "cp node_modules/lucide-react-native/LICENSE ./LICENSE",
     "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons",
     "build:bundles": "cp -R node_modules/lucide-react-native/dist/esm/icons/ src/icons/ && rollup -c ./rollup.config.mjs",
-    "test": "pnpm build:icons && vitest run",
-    "version": "pnpm version --git-tag-version=false"
+    "test": "npm run build:icons && vitest run",
+    "sync-version": "node -e \"const fs=require('fs');const v=require('./node_modules/lucide-react-native/package.json').version;const pkg=JSON.parse(fs.readFileSync('package.json'));pkg.version=v;fs.writeFileSync('package.json',JSON.stringify(pkg,null,2)+'\\n');console.log('✅ Set version to',v);\""
   },
   "devDependencies": {
     "@lucide/rollup-plugins": "^1.0.0",
@@ -47,7 +47,7 @@
     "@types/react": "^19.1.0",
     "@vitejs/plugin-react": "^4.2.1",
     "jest-serializer-html": "^7.1.0",
-    "lucide-react-native": "^0.546.0",
+    "lucide-react-native": "*",
     "react": "19.1.0",
     "react-native": "0.81.4",
     "rollup": "^4.22.4",
