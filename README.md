@@ -10,8 +10,8 @@ Lucide icon library for React Native Skia applications.
 
 <div align="center">
 
-[![npm](https://img.shields.io/npm/v/lucide-react-native?color=blue)](https://www.npmjs.com/package/lucide-react-native)
-![NPM Downloads](https://img.shields.io/npm/dw/lucide-react-native)
+[![npm](https://img.shields.io/npm/v/@appibara/lucide-react-native-skia?color=blue)](https://www.npmjs.com/package/@appibara/lucide-react-native-skia)
+![NPM Downloads](https://img.shields.io/npm/dw/@appibara/lucide-react-native-skia)
 [![GitHub](https://img.shields.io/github/license/lucide-icons/lucide)](https://lucide.dev/license)
 
 </div>
