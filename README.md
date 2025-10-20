@@ -1,6 +1,8 @@
-<p align="center">
+<p align="center" justify="center">
   <a href="https://github.com/lucide-icons/lucide">
-    <img src="https://lucide.dev/package-logos/lucide-react-native.svg" alt="Lucide icon library for React Native applications." width="540">
+    <img src="https://lucide.dev/package-logos/lucide-react-native.svg" alt="Lucide icon library for React Native applications." height="100">
+  </a><a href="https://github.com/shopify/react-native-skia">
+    <img src="https://user-images.githubusercontent.com/306134/146549218-b7959ad9-0107-4c1c-b439-b96c780f5230.png" alt="High-performance 2d Graphics for React Native using Skia" width="155"> 
   </a>
 </p>
 
