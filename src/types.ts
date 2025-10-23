@@ -1,4 +1,4 @@
-import type { GroupProps } from "@shopify/react-native-skia";
+import type { PublicGroupProps, SkiaProps } from "@shopify/react-native-skia";
 import type { FC, MemoExoticComponent } from "react";
 /**
  * A reduced version of `SVGElementType` from @types/react. This type was added
@@ -15,7 +15,7 @@ export type SVGElementType =
   | "polyline"
   | "rect";
 
-export interface LucideProps extends GroupProps {
+export interface LucideProps extends SkiaProps<PublicGroupProps> {
   size?: number;
   absoluteStrokeWidth?: boolean;
   strokeWidth?: number;

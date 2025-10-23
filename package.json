@@ -39,7 +39,7 @@
     "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons",
     "build:bundles": "cp -R node_modules/lucide-react-native/dist/esm/icons/ src/icons/ && rollup -c ./rollup.config.mjs",
     "test": "npm run build:icons && vitest run",
-    "sync-version": "node -e \"const fs=require('fs');const v=require('./node_modules/lucide-react-native/package.json').version;const pkg=JSON.parse(fs.readFileSync('package.json'));pkg.version=v;fs.writeFileSync('package.json',JSON.stringify(pkg,null,2)+'\\n');console.log('✅ Set version to',v);\""
+    "sync-version": "node  ./sync-version.js"
   },
   "devDependencies": {
     "@lucide/rollup-plugins": "^1.0.0",
