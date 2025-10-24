@@ -19,7 +19,6 @@ export interface LucideProps extends SkiaProps<PublicGroupProps> {
   size?: number;
   absoluteStrokeWidth?: boolean;
   strokeWidth?: number;
-  color?: string;
   "data-testid"?: string;
 }
 
