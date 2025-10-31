@@ -1,7 +1,7 @@
 {
   "name": "@appibara/lucide-react-native-skia",
   "description": "A Lucide icon library package for React Native Skia applications.",
-  "version": "0.548.0",
+  "version": "0.552.0",
   "license": "ISC",
   "homepage": "https://lucide.dev",
   "bugs": "https://github.com/lucide-icons/lucide/issues",
@@ -37,9 +37,10 @@
     "build": "npm run clean && npm run sync-version &&  npm run copy:license && npm run build:bundles",
     "copy:license": "cp node_modules/lucide-react-native/LICENSE ./LICENSE",
     "clean": "rm -rf dist && rm -rf stats && rm -rf ./src/icons",
-    "build:bundles": "cp -R node_modules/lucide-react-native/dist/esm/icons/ src/icons/ && rollup -c ./rollup.config.mjs",
+    "rollup": "rollup -c ./rollup.config.mjs",
+    "build:bundles": "cp -R node_modules/lucide-react-native/dist/esm/icons/ src/icons/ && npm run rollup",
     "test": "npm run build:icons && vitest run",
-    "sync-version": "node  ./sync-version.js"
+    "sync-version": "npm upgrade lucide-react-native && node ./sync-version.js"
   },
   "devDependencies": {
     "@lucide/rollup-plugins": "^1.0.0",
