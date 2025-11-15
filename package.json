@@ -1,7 +1,7 @@
 {
   "name": "@appibara/lucide-react-native-skia",
   "description": "A Lucide icon library package for React Native Skia applications.",
-  "version": "0.552.0",
+  "version": "0.553.0",
   "license": "ISC",
   "homepage": "https://lucide.dev",
   "bugs": "https://github.com/lucide-icons/lucide/issues",
