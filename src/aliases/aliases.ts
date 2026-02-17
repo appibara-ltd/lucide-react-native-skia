@@ -17,29 +17,35 @@ export {
   default as AlarmPlus
 } from '../icons/alarm-clock-plus';
 
-// ArrowDownAZ aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowDownAZ} instead. This alias will be removed in v1.0 */
-  default as ArrowDownAz
-} from '../icons/arrow-down-a-z';
-
 // ArrowDownWideNarrow aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowDownWideNarrow} instead. This alias will be removed in v1.0 */
   default as SortDesc
 } from '../icons/arrow-down-wide-narrow';
 
-// ArrowDownZA aliases
+// ArrowDownAZ aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowDownZA} instead. This alias will be removed in v1.0 */
-  default as ArrowDownZa
-} from '../icons/arrow-down-z-a';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowDownAZ} instead. This alias will be removed in v1.0 */
+  default as ArrowDownAz
+} from '../icons/arrow-down-a-z';
+
+// ArrowUpNarrowWide aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowUpNarrowWide} instead. This alias will be removed in v1.0 */
+  default as SortAsc
+} from '../icons/arrow-up-narrow-wide';
 
 // ArrowUpAZ aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowUpAZ} instead. This alias will be removed in v1.0 */
   default as ArrowUpAz
 } from '../icons/arrow-up-a-z';
+
+// ArrowDownZA aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowDownZA} instead. This alias will be removed in v1.0 */
+  default as ArrowDownZa
+} from '../icons/arrow-down-z-a';
 
 // Axis3d aliases
 export {
@@ -65,23 +71,17 @@ export {
   default as Verified
 } from '../icons/badge-check';
 
-// BetweenHorizontalEnd aliases
-export {
-  /** @deprecated Renamed because of typo, use {@link BetweenHorizontalEnd} instead. This alias will be removed in v1.0 */
-  default as BetweenHorizonalEnd
-} from '../icons/between-horizontal-end';
-
 // BetweenHorizontalStart aliases
 export {
   /** @deprecated Renamed because of typo, use {@link BetweenHorizontalStart} instead. This alias will be removed in v1.0 */
   default as BetweenHorizonalStart
 } from '../icons/between-horizontal-start';
 
-// Braces aliases
+// BetweenHorizontalEnd aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Braces} instead. This alias will be removed in v1.0 */
-  default as CurlyBraces
-} from '../icons/braces';
+  /** @deprecated Renamed because of typo, use {@link BetweenHorizontalEnd} instead. This alias will be removed in v1.0 */
+  default as BetweenHorizonalEnd
+} from '../icons/between-horizontal-end';
 
 // Captions aliases
 export {
@@ -95,17 +95,29 @@ export {
   default as BookTemplate
 } from '../icons/book-dashed';
 
+// ChartArea aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartArea} instead. This alias will be removed in v1.0 */
+  default as AreaChart
+} from '../icons/chart-area';
+
+// Braces aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Braces} instead. This alias will be removed in v1.0 */
+  default as CurlyBraces
+} from '../icons/braces';
+
+// ChartBar aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartBar} instead. This alias will be removed in v1.0 */
+  default as BarChartHorizontal
+} from '../icons/chart-bar';
+
 // ChartBarBig aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartBarBig} instead. This alias will be removed in v1.0 */
   default as BarChartHorizontalBig
 } from '../icons/chart-bar-big';
-
-// ArrowUpNarrowWide aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ArrowUpNarrowWide} instead. This alias will be removed in v1.0 */
-  default as SortAsc
-} from '../icons/arrow-up-narrow-wide';
 
 // ChartCandlestick aliases
 export {
@@ -119,29 +131,11 @@ export {
   default as BarChartBig
 } from '../icons/chart-column-big';
 
-// ChartBar aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartBar} instead. This alias will be removed in v1.0 */
-  default as BarChartHorizontal
-} from '../icons/chart-bar';
-
 // ChartColumnIncreasing aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartColumnIncreasing} instead. This alias will be removed in v1.0 */
   default as BarChart4
 } from '../icons/chart-column-increasing';
-
-// ChartNoAxesColumnIncreasing aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartNoAxesColumnIncreasing} instead. This alias will be removed in v1.0 */
-  default as BarChart
-} from '../icons/chart-no-axes-column-increasing';
-
-// ChartLine aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartLine} instead. This alias will be removed in v1.0 */
-  default as LineChart
-} from '../icons/chart-line';
 
 // ChartColumn aliases
 export {
@@ -149,41 +143,11 @@ export {
   default as BarChart3
 } from '../icons/chart-column';
 
-// ChartNoAxesColumn aliases
+// ChartLine aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartNoAxesColumn} instead. This alias will be removed in v1.0 */
-  default as BarChart2
-} from '../icons/chart-no-axes-column';
-
-// ChartArea aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartArea} instead. This alias will be removed in v1.0 */
-  default as AreaChart
-} from '../icons/chart-area';
-
-// Chromium aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Chromium} instead. This alias will be removed in v1.0 */
-  default as Chrome
-} from '../icons/chromium';
-
-// ChartScatter aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartScatter} instead. This alias will be removed in v1.0 */
-  default as ScatterChart
-} from '../icons/chart-scatter';
-
-// CircleAlert aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleAlert} instead. This alias will be removed in v1.0 */
-  default as AlertCircle
-} from '../icons/circle-alert';
-
-// ChartPie aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartPie} instead. This alias will be removed in v1.0 */
-  default as PieChart
-} from '../icons/chart-pie';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartLine} instead. This alias will be removed in v1.0 */
+  default as LineChart
+} from '../icons/chart-line';
 
 // ChartNoAxesGantt aliases
 export {
@@ -191,71 +155,29 @@ export {
   default as GanttChart
 } from '../icons/chart-no-axes-gantt';
 
-// CircleArrowOutDownLeft aliases
+// ChartNoAxesColumnIncreasing aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutDownLeft} instead. This alias will be removed in v1.0 */
-  default as ArrowDownLeftFromCircle
-} from '../icons/circle-arrow-out-down-left';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartNoAxesColumnIncreasing} instead. This alias will be removed in v1.0 */
+  default as BarChart
+} from '../icons/chart-no-axes-column-increasing';
 
-// CircleArrowOutDownRight aliases
+// ChartNoAxesColumn aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutDownRight} instead. This alias will be removed in v1.0 */
-  default as ArrowDownRightFromCircle
-} from '../icons/circle-arrow-out-down-right';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartNoAxesColumn} instead. This alias will be removed in v1.0 */
+  default as BarChart2
+} from '../icons/chart-no-axes-column';
 
-// CircleArrowLeft aliases
+// ChartPie aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowLeft} instead. This alias will be removed in v1.0 */
-  default as ArrowLeftCircle
-} from '../icons/circle-arrow-left';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartPie} instead. This alias will be removed in v1.0 */
+  default as PieChart
+} from '../icons/chart-pie';
 
-// CircleArrowOutUpRight aliases
+// Chromium aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutUpRight} instead. This alias will be removed in v1.0 */
-  default as ArrowUpRightFromCircle
-} from '../icons/circle-arrow-out-up-right';
-
-// CircleArrowUp aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowUp} instead. This alias will be removed in v1.0 */
-  default as ArrowUpCircle
-} from '../icons/circle-arrow-up';
-
-// CircleCheck aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleCheck} instead. This alias will be removed in v1.0 */
-  default as CheckCircle2
-} from '../icons/circle-check';
-
-// CircleArrowRight aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowRight} instead. This alias will be removed in v1.0 */
-  default as ArrowRightCircle
-} from '../icons/circle-arrow-right';
-
-// CircleCheckBig aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleCheckBig} instead. This alias will be removed in v1.0 */
-  default as CheckCircle
-} from '../icons/circle-check-big';
-
-// CircleChevronDown aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleChevronDown} instead. This alias will be removed in v1.0 */
-  default as ChevronDownCircle
-} from '../icons/circle-chevron-down';
-
-// CircleArrowOutUpLeft aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutUpLeft} instead. This alias will be removed in v1.0 */
-  default as ArrowUpLeftFromCircle
-} from '../icons/circle-arrow-out-up-left';
-
-// CircleChevronLeft aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleChevronLeft} instead. This alias will be removed in v1.0 */
-  default as ChevronLeftCircle
-} from '../icons/circle-chevron-left';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Chromium} instead. This alias will be removed in v1.0 */
+  default as Chrome
+} from '../icons/chromium';
 
 // CircleArrowDown aliases
 export {
@@ -263,29 +185,83 @@ export {
   default as ArrowDownCircle
 } from '../icons/circle-arrow-down';
 
-// CircleGauge aliases
+// CircleAlert aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleGauge} instead. This alias will be removed in v1.0 */
-  default as GaugeCircle
-} from '../icons/circle-gauge';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleAlert} instead. This alias will be removed in v1.0 */
+  default as AlertCircle
+} from '../icons/circle-alert';
 
-// CircleChevronUp aliases
+// ChartScatter aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleChevronUp} instead. This alias will be removed in v1.0 */
-  default as ChevronUpCircle
-} from '../icons/circle-chevron-up';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ChartScatter} instead. This alias will be removed in v1.0 */
+  default as ScatterChart
+} from '../icons/chart-scatter';
 
-// CircleMinus aliases
+// CircleArrowOutDownLeft aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleMinus} instead. This alias will be removed in v1.0 */
-  default as MinusCircle
-} from '../icons/circle-minus';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutDownLeft} instead. This alias will be removed in v1.0 */
+  default as ArrowDownLeftFromCircle
+} from '../icons/circle-arrow-out-down-left';
 
-// CircleParkingOff aliases
+// CircleArrowLeft aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleParkingOff} instead. This alias will be removed in v1.0 */
-  default as ParkingCircleOff
-} from '../icons/circle-parking-off';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowLeft} instead. This alias will be removed in v1.0 */
+  default as ArrowLeftCircle
+} from '../icons/circle-arrow-left';
+
+// CircleArrowOutUpLeft aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutUpLeft} instead. This alias will be removed in v1.0 */
+  default as ArrowUpLeftFromCircle
+} from '../icons/circle-arrow-out-up-left';
+
+// CircleArrowOutDownRight aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutDownRight} instead. This alias will be removed in v1.0 */
+  default as ArrowDownRightFromCircle
+} from '../icons/circle-arrow-out-down-right';
+
+// CircleArrowOutUpRight aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowOutUpRight} instead. This alias will be removed in v1.0 */
+  default as ArrowUpRightFromCircle
+} from '../icons/circle-arrow-out-up-right';
+
+// CircleArrowRight aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowRight} instead. This alias will be removed in v1.0 */
+  default as ArrowRightCircle
+} from '../icons/circle-arrow-right';
+
+// CircleArrowUp aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleArrowUp} instead. This alias will be removed in v1.0 */
+  default as ArrowUpCircle
+} from '../icons/circle-arrow-up';
+
+// CircleCheckBig aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleCheckBig} instead. This alias will be removed in v1.0 */
+  default as CheckCircle
+} from '../icons/circle-check-big';
+
+// CircleCheck aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleCheck} instead. This alias will be removed in v1.0 */
+  default as CheckCircle2
+} from '../icons/circle-check';
+
+// CircleChevronDown aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleChevronDown} instead. This alias will be removed in v1.0 */
+  default as ChevronDownCircle
+} from '../icons/circle-chevron-down';
+
+// CircleChevronLeft aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleChevronLeft} instead. This alias will be removed in v1.0 */
+  default as ChevronLeftCircle
+} from '../icons/circle-chevron-left';
 
 // CircleChevronRight aliases
 export {
@@ -293,11 +269,29 @@ export {
   default as ChevronRightCircle
 } from '../icons/circle-chevron-right';
 
-// CircleParking aliases
+// CircleChevronUp aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleParking} instead. This alias will be removed in v1.0 */
-  default as ParkingCircle
-} from '../icons/circle-parking';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleChevronUp} instead. This alias will be removed in v1.0 */
+  default as ChevronUpCircle
+} from '../icons/circle-chevron-up';
+
+// CircleDivide aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleDivide} instead. This alias will be removed in v1.0 */
+  default as DivideCircle
+} from '../icons/circle-divide';
+
+// CircleGauge aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleGauge} instead. This alias will be removed in v1.0 */
+  default as GaugeCircle
+} from '../icons/circle-gauge';
+
+// CircleMinus aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleMinus} instead. This alias will be removed in v1.0 */
+  default as MinusCircle
+} from '../icons/circle-minus';
 
 // CirclePause aliases
 export {
@@ -311,29 +305,17 @@ export {
   default as PercentCircle
 } from '../icons/circle-percent';
 
-// CirclePlay aliases
+// CircleParking aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CirclePlay} instead. This alias will be removed in v1.0 */
-  default as PlayCircle
-} from '../icons/circle-play';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleParking} instead. This alias will be removed in v1.0 */
+  default as ParkingCircle
+} from '../icons/circle-parking';
 
-// CirclePower aliases
+// CircleParkingOff aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CirclePower} instead. This alias will be removed in v1.0 */
-  default as PowerCircle
-} from '../icons/circle-power';
-
-// CircleStop aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleStop} instead. This alias will be removed in v1.0 */
-  default as StopCircle
-} from '../icons/circle-stop';
-
-// CirclePlus aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CirclePlus} instead. This alias will be removed in v1.0 */
-  default as PlusCircle
-} from '../icons/circle-plus';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleParkingOff} instead. This alias will be removed in v1.0 */
+  default as ParkingCircleOff
+} from '../icons/circle-parking-off';
 
 // CircleQuestionMark aliases
 export {
@@ -347,11 +329,35 @@ export {
   default as CircleHelp
 } from '../icons/circle-question-mark';
 
+// CirclePlay aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CirclePlay} instead. This alias will be removed in v1.0 */
+  default as PlayCircle
+} from '../icons/circle-play';
+
+// CirclePlus aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CirclePlus} instead. This alias will be removed in v1.0 */
+  default as PlusCircle
+} from '../icons/circle-plus';
+
+// CirclePower aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CirclePower} instead. This alias will be removed in v1.0 */
+  default as PowerCircle
+} from '../icons/circle-power';
+
 // CircleSlash2 aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleSlash2} instead. This alias will be removed in v1.0 */
   default as CircleSlashed
 } from '../icons/circle-slash-2';
+
+// CircleStop aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleStop} instead. This alias will be removed in v1.0 */
+  default as StopCircle
+} from '../icons/circle-stop';
 
 // CircleUserRound aliases
 export {
@@ -359,11 +365,11 @@ export {
   default as UserCircle2
 } from '../icons/circle-user-round';
 
-// CircleDivide aliases
+// CircleUser aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleDivide} instead. This alias will be removed in v1.0 */
-  default as DivideCircle
-} from '../icons/circle-divide';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleUser} instead. This alias will be removed in v1.0 */
+  default as UserCircle
+} from '../icons/circle-user';
 
 // CircleX aliases
 export {
@@ -377,12 +383,6 @@ export {
   default as ClipboardEdit
 } from '../icons/clipboard-pen';
 
-// CloudDownload aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CloudDownload} instead. This alias will be removed in v1.0 */
-  default as DownloadCloud
-} from '../icons/cloud-download';
-
 // CloudUpload aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CloudUpload} instead. This alias will be removed in v1.0 */
@@ -395,17 +395,23 @@ export {
   default as ClipboardSignature
 } from '../icons/clipboard-pen-line';
 
-// Columns2 aliases
+// CloudDownload aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Columns2} instead. This alias will be removed in v1.0 */
-  default as Columns
-} from '../icons/columns-2';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CloudDownload} instead. This alias will be removed in v1.0 */
+  default as DownloadCloud
+} from '../icons/cloud-download';
 
 // CodeXml aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CodeXml} instead. This alias will be removed in v1.0 */
   default as Code2
 } from '../icons/code-xml';
+
+// Columns2 aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Columns2} instead. This alias will be removed in v1.0 */
+  default as Columns
+} from '../icons/columns-2';
 
 // Columns3Cog aliases
 export {
@@ -419,17 +425,17 @@ export {
   default as TableConfig
 } from '../icons/columns-3-cog';
 
-// DiamondPercent aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link DiamondPercent} instead. This alias will be removed in v1.0 */
-  default as PercentDiamond
-} from '../icons/diamond-percent';
-
 // Columns3 aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Columns3} instead. This alias will be removed in v1.0 */
   default as PanelsLeftRight
 } from '../icons/columns-3';
+
+// ContactRound aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ContactRound} instead. This alias will be removed in v1.0 */
+  default as Contact2
+} from '../icons/contact-round';
 
 // EllipsisVertical aliases
 export {
@@ -437,11 +443,23 @@ export {
   default as MoreVertical
 } from '../icons/ellipsis-vertical';
 
-// FileBadge aliases
+// Earth aliases
 export {
-  /** @deprecated The icon was combined with another icon that shares the same use case, use {@link FileBadge} instead. This alias will be removed in v1.0 */
-  default as FileBadge2
-} from '../icons/file-badge';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Earth} instead. This alias will be removed in v1.0 */
+  default as Globe2
+} from '../icons/earth';
+
+// Ellipsis aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Ellipsis} instead. This alias will be removed in v1.0 */
+  default as MoreHorizontal
+} from '../icons/ellipsis';
+
+// DiamondPercent aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link DiamondPercent} instead. This alias will be removed in v1.0 */
+  default as PercentDiamond
+} from '../icons/diamond-percent';
 
 // FileAxis3d aliases
 export {
@@ -449,11 +467,23 @@ export {
   default as FileAxis3D
 } from '../icons/file-axis-3d';
 
+// FileBadge aliases
+export {
+  /** @deprecated The icon was combined with another icon that shares the same use case, use {@link FileBadge} instead. This alias will be removed in v1.0 */
+  default as FileBadge2
+} from '../icons/file-badge';
+
 // FileBracesCorner aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileBracesCorner} instead. This alias will be removed in v1.0 */
   default as FileJson2
 } from '../icons/file-braces-corner';
+
+// FileBraces aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileBraces} instead. This alias will be removed in v1.0 */
+  default as FileJson
+} from '../icons/file-braces';
 
 // FileChartColumnIncreasing aliases
 export {
@@ -467,35 +497,11 @@ export {
   default as FileBarChart2
 } from '../icons/file-chart-column';
 
-// CircleUser aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link CircleUser} instead. This alias will be removed in v1.0 */
-  default as UserCircle
-} from '../icons/circle-user';
-
-// FileBraces aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileBraces} instead. This alias will be removed in v1.0 */
-  default as FileJson
-} from '../icons/file-braces';
-
 // FileChartLine aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileChartLine} instead. This alias will be removed in v1.0 */
   default as FileLineChart
 } from '../icons/file-chart-line';
-
-// Ellipsis aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Ellipsis} instead. This alias will be removed in v1.0 */
-  default as MoreHorizontal
-} from '../icons/ellipsis';
-
-// FileCodeCorner aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileCodeCorner} instead. This alias will be removed in v1.0 */
-  default as FileCode2
-} from '../icons/file-code-corner';
 
 // FileChartPie aliases
 export {
@@ -509,6 +515,12 @@ export {
   default as FileCheck2
 } from '../icons/file-check-corner';
 
+// FileCodeCorner aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileCodeCorner} instead. This alias will be removed in v1.0 */
+  default as FileCode2
+} from '../icons/file-code-corner';
+
 // FileHeadphone aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileHeadphone} instead. This alias will be removed in v1.0 */
@@ -521,17 +533,23 @@ export {
   default as FileAudio2
 } from '../icons/file-headphone';
 
+// FileExclamationPoint aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileExclamationPoint} instead. This alias will be removed in v1.0 */
+  default as FileWarning
+} from '../icons/file-exclamation-point';
+
 // FileKey aliases
 export {
   /** @deprecated The icon was combined with another icon that shares the same use case, use {@link FileKey} instead. This alias will be removed in v1.0 */
   default as FileKey2
 } from '../icons/file-key';
 
-// FileExclamationPoint aliases
+// FileCog aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileExclamationPoint} instead. This alias will be removed in v1.0 */
-  default as FileWarning
-} from '../icons/file-exclamation-point';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileCog} instead. This alias will be removed in v1.0 */
+  default as FileCog2
+} from '../icons/file-cog';
 
 // FileLock aliases
 export {
@@ -545,29 +563,11 @@ export {
   default as FileMinus2
 } from '../icons/file-minus-corner';
 
-// FileCog aliases
+// FilePenLine aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileCog} instead. This alias will be removed in v1.0 */
-  default as FileCog2
-} from '../icons/file-cog';
-
-// Earth aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Earth} instead. This alias will be removed in v1.0 */
-  default as Globe2
-} from '../icons/earth';
-
-// FilePlusCorner aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FilePlusCorner} instead. This alias will be removed in v1.0 */
-  default as FilePlus2
-} from '../icons/file-plus-corner';
-
-// FileQuestionMark aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileQuestionMark} instead. This alias will be removed in v1.0 */
-  default as FileQuestion
-} from '../icons/file-question-mark';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FilePenLine} instead. This alias will be removed in v1.0 */
+  default as FileSignature
+} from '../icons/file-pen-line';
 
 // FilePen aliases
 export {
@@ -581,11 +581,17 @@ export {
   default as FileVideo
 } from '../icons/file-play';
 
-// FilePenLine aliases
+// FileQuestionMark aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FilePenLine} instead. This alias will be removed in v1.0 */
-  default as FileSignature
-} from '../icons/file-pen-line';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileQuestionMark} instead. This alias will be removed in v1.0 */
+  default as FileQuestion
+} from '../icons/file-question-mark';
+
+// FilePlusCorner aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FilePlusCorner} instead. This alias will be removed in v1.0 */
+  default as FilePlus2
+} from '../icons/file-plus-corner';
 
 // FileSearchCorner aliases
 export {
@@ -599,17 +605,23 @@ export {
   default as FileVolume2
 } from '../icons/file-signal';
 
+// FileTypeCorner aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileTypeCorner} instead. This alias will be removed in v1.0 */
+  default as FileType2
+} from '../icons/file-type-corner';
+
 // FileVideoCamera aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileVideoCamera} instead. This alias will be removed in v1.0 */
   default as FileVideo2
 } from '../icons/file-video-camera';
 
-// ContactRound aliases
+// FolderCog aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ContactRound} instead. This alias will be removed in v1.0 */
-  default as Contact2
-} from '../icons/contact-round';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FolderCog} instead. This alias will be removed in v1.0 */
+  default as FolderCog2
+} from '../icons/folder-cog';
 
 // FileXCorner aliases
 export {
@@ -623,12 +635,6 @@ export {
   default as Fingerprint
 } from '../icons/fingerprint-pattern';
 
-// FolderCog aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FolderCog} instead. This alias will be removed in v1.0 */
-  default as FolderCog2
-} from '../icons/folder-cog';
-
 // FolderPen aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FolderPen} instead. This alias will be removed in v1.0 */
@@ -641,17 +647,17 @@ export {
   default as FilterX
 } from '../icons/funnel-x';
 
+// Funnel aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Funnel} instead. This alias will be removed in v1.0 */
+  default as Filter
+} from '../icons/funnel';
+
 // GitCommitHorizontal aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link GitCommitHorizontal} instead. This alias will be removed in v1.0 */
   default as GitCommit
 } from '../icons/git-commit-horizontal';
-
-// FileTypeCorner aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link FileTypeCorner} instead. This alias will be removed in v1.0 */
-  default as FileType2
-} from '../icons/file-type-corner';
 
 // Grid2x2Plus aliases
 export {
@@ -659,11 +665,11 @@ export {
   default as Grid2X2Plus
 } from '../icons/grid-2x2-plus';
 
-// Funnel aliases
+// Grid2x2Check aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Funnel} instead. This alias will be removed in v1.0 */
-  default as Filter
-} from '../icons/funnel';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Grid2x2Check} instead. This alias will be removed in v1.0 */
+  default as Grid2X2Check
+} from '../icons/grid-2x2-check';
 
 // Grid2x2X aliases
 export {
@@ -689,6 +695,12 @@ export {
   default as Grid3X3
 } from '../icons/grid-3x3';
 
+// HandHelping aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link HandHelping} instead. This alias will be removed in v1.0 */
+  default as HelpingHand
+} from '../icons/hand-helping';
+
 // HandGrab aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link HandGrab} instead. This alias will be removed in v1.0 */
@@ -701,23 +713,11 @@ export {
   default as Home
 } from '../icons/house';
 
-// Grid2x2Check aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Grid2x2Check} instead. This alias will be removed in v1.0 */
-  default as Grid2X2Check
-} from '../icons/grid-2x2-check';
-
 // IceCreamBowl aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link IceCreamBowl} instead. This alias will be removed in v1.0 */
   default as IceCream2
 } from '../icons/ice-cream-bowl';
-
-// IceCreamCone aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link IceCreamCone} instead. This alias will be removed in v1.0 */
-  default as IceCream
-} from '../icons/ice-cream-cone';
 
 // LaptopMinimal aliases
 export {
@@ -725,29 +725,11 @@ export {
   default as Laptop2
 } from '../icons/laptop-minimal';
 
-// ListIndentDecrease aliases
+// IceCreamCone aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ListIndentDecrease} instead. This alias will be removed in v1.0 */
-  default as Outdent
-} from '../icons/list-indent-decrease';
-
-// ListIndentDecrease aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ListIndentDecrease} instead. This alias will be removed in v1.0 */
-  default as IndentDecrease
-} from '../icons/list-indent-decrease';
-
-// HandHelping aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link HandHelping} instead. This alias will be removed in v1.0 */
-  default as HelpingHand
-} from '../icons/hand-helping';
-
-// LoaderCircle aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link LoaderCircle} instead. This alias will be removed in v1.0 */
-  default as Loader2
-} from '../icons/loader-circle';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link IceCreamCone} instead. This alias will be removed in v1.0 */
+  default as IceCream
+} from '../icons/ice-cream-cone';
 
 // Layers aliases
 export {
@@ -767,6 +749,12 @@ export {
   default as IndentIncrease
 } from '../icons/list-indent-increase';
 
+// LoaderCircle aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link LoaderCircle} instead. This alias will be removed in v1.0 */
+  default as Loader2
+} from '../icons/loader-circle';
+
 // LockOpen aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link LockOpen} instead. This alias will be removed in v1.0 */
@@ -785,11 +773,29 @@ export {
   default as MailQuestion
 } from '../icons/mail-question-mark';
 
+// ListIndentDecrease aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ListIndentDecrease} instead. This alias will be removed in v1.0 */
+  default as Outdent
+} from '../icons/list-indent-decrease';
+
+// ListIndentDecrease aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ListIndentDecrease} instead. This alias will be removed in v1.0 */
+  default as IndentDecrease
+} from '../icons/list-indent-decrease';
+
 // MessageCircleQuestionMark aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link MessageCircleQuestionMark} instead. This alias will be removed in v1.0 */
   default as MessageCircleQuestion
 } from '../icons/message-circle-question-mark';
+
+// MapPinPen aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link MapPinPen} instead. This alias will be removed in v1.0 */
+  default as LocationEdit
+} from '../icons/map-pin-pen';
 
 // Move3d aliases
 export {
@@ -809,11 +815,11 @@ export {
   default as AlertOctagon
 } from '../icons/octagon-alert';
 
-// MapPinPen aliases
+// PaintbrushVertical aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link MapPinPen} instead. This alias will be removed in v1.0 */
-  default as LocationEdit
-} from '../icons/map-pin-pen';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PaintbrushVertical} instead. This alias will be removed in v1.0 */
+  default as Paintbrush2
+} from '../icons/paintbrush-vertical';
 
 // OctagonPause aliases
 export {
@@ -827,35 +833,11 @@ export {
   default as XOctagon
 } from '../icons/octagon-x';
 
-// PanelLeftClose aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelLeftClose} instead. This alias will be removed in v1.0 */
-  default as SidebarClose
-} from '../icons/panel-left-close';
-
 // PanelBottomDashed aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelBottomDashed} instead. This alias will be removed in v1.0 */
   default as PanelBottomInactive
 } from '../icons/panel-bottom-dashed';
-
-// PaintbrushVertical aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PaintbrushVertical} instead. This alias will be removed in v1.0 */
-  default as Paintbrush2
-} from '../icons/paintbrush-vertical';
-
-// PanelRightDashed aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelRightDashed} instead. This alias will be removed in v1.0 */
-  default as PanelRightInactive
-} from '../icons/panel-right-dashed';
-
-// PanelLeftDashed aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelLeftDashed} instead. This alias will be removed in v1.0 */
-  default as PanelLeftInactive
-} from '../icons/panel-left-dashed';
 
 // PanelLeftOpen aliases
 export {
@@ -863,11 +845,29 @@ export {
   default as SidebarOpen
 } from '../icons/panel-left-open';
 
+// PanelLeftClose aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelLeftClose} instead. This alias will be removed in v1.0 */
+  default as SidebarClose
+} from '../icons/panel-left-close';
+
+// PanelLeftDashed aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelLeftDashed} instead. This alias will be removed in v1.0 */
+  default as PanelLeftInactive
+} from '../icons/panel-left-dashed';
+
 // PanelLeft aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelLeft} instead. This alias will be removed in v1.0 */
   default as Sidebar
 } from '../icons/panel-left';
+
+// PanelRightDashed aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelRightDashed} instead. This alias will be removed in v1.0 */
+  default as PanelRightInactive
+} from '../icons/panel-right-dashed';
 
 // PanelsTopLeft aliases
 export {
@@ -875,23 +875,17 @@ export {
   default as Layout
 } from '../icons/panels-top-left';
 
-// PenLine aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PenLine} instead. This alias will be removed in v1.0 */
-  default as Edit3
-} from '../icons/pen-line';
-
 // Pen aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Pen} instead. This alias will be removed in v1.0 */
   default as Edit2
 } from '../icons/pen';
 
-// PanelTopDashed aliases
+// PenLine aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelTopDashed} instead. This alias will be removed in v1.0 */
-  default as PanelTopInactive
-} from '../icons/panel-top-dashed';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PenLine} instead. This alias will be removed in v1.0 */
+  default as Edit3
+} from '../icons/pen-line';
 
 // PlugZap aliases
 export {
@@ -911,6 +905,12 @@ export {
   default as Rotate3D
 } from '../icons/rotate-3d';
 
+// Rows2 aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Rows2} instead. This alias will be removed in v1.0 */
+  default as Rows
+} from '../icons/rows-2';
+
 // Rows3 aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Rows3} instead. This alias will be removed in v1.0 */
@@ -923,12 +923,6 @@ export {
   default as Scale3D
 } from '../icons/scale-3d';
 
-// SendHorizontal aliases
-export {
-  /** @deprecated Renamed because of typo, use {@link SendHorizontal} instead. This alias will be removed in v1.0 */
-  default as SendHorizonal
-} from '../icons/send-horizontal';
-
 // ShieldQuestionMark aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ShieldQuestionMark} instead. This alias will be removed in v1.0 */
@@ -940,6 +934,12 @@ export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link ShieldX} instead. This alias will be removed in v1.0 */
   default as ShieldClose
 } from '../icons/shield-x';
+
+// SendHorizontal aliases
+export {
+  /** @deprecated Renamed because of typo, use {@link SendHorizontal} instead. This alias will be removed in v1.0 */
+  default as SendHorizonal
+} from '../icons/send-horizontal';
 
 // SlidersVertical aliases
 export {
@@ -958,12 +958,6 @@ export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareActivity} instead. This alias will be removed in v1.0 */
   default as ActivitySquare
 } from '../icons/square-activity';
-
-// Rows2 aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link Rows2} instead. This alias will be removed in v1.0 */
-  default as Rows
-} from '../icons/rows-2';
 
 // SquareArrowDownLeft aliases
 export {
@@ -989,23 +983,23 @@ export {
   default as ArrowLeftSquare
 } from '../icons/square-arrow-left';
 
-// SquareArrowOutDownLeft aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutDownLeft} instead. This alias will be removed in v1.0 */
-  default as ArrowDownLeftFromSquare
-} from '../icons/square-arrow-out-down-left';
-
 // SquareArrowOutDownRight aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutDownRight} instead. This alias will be removed in v1.0 */
   default as ArrowDownRightFromSquare
 } from '../icons/square-arrow-out-down-right';
 
-// SquareArrowOutUpRight aliases
+// SquareArrowOutDownLeft aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutUpRight} instead. This alias will be removed in v1.0 */
-  default as ArrowUpRightFromSquare
-} from '../icons/square-arrow-out-up-right';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutDownLeft} instead. This alias will be removed in v1.0 */
+  default as ArrowDownLeftFromSquare
+} from '../icons/square-arrow-out-down-left';
+
+// SquareArrowOutUpLeft aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutUpLeft} instead. This alias will be removed in v1.0 */
+  default as ArrowUpLeftFromSquare
+} from '../icons/square-arrow-out-up-left';
 
 // SquareArrowRight aliases
 export {
@@ -1013,23 +1007,41 @@ export {
   default as ArrowRightSquare
 } from '../icons/square-arrow-right';
 
-// SquareArrowUpRight aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowUpRight} instead. This alias will be removed in v1.0 */
-  default as ArrowUpRightSquare
-} from '../icons/square-arrow-up-right';
-
 // SquareArrowUpLeft aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowUpLeft} instead. This alias will be removed in v1.0 */
   default as ArrowUpLeftSquare
 } from '../icons/square-arrow-up-left';
 
+// SquareArrowUpRight aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowUpRight} instead. This alias will be removed in v1.0 */
+  default as ArrowUpRightSquare
+} from '../icons/square-arrow-up-right';
+
+// SquareArrowUp aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowUp} instead. This alias will be removed in v1.0 */
+  default as ArrowUpSquare
+} from '../icons/square-arrow-up';
+
 // SquareBottomDashedScissors aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareBottomDashedScissors} instead. This alias will be removed in v1.0 */
   default as ScissorsSquareDashedBottom
 } from '../icons/square-bottom-dashed-scissors';
+
+// SquareAsterisk aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareAsterisk} instead. This alias will be removed in v1.0 */
+  default as AsteriskSquare
+} from '../icons/square-asterisk';
+
+// SquareCheckBig aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareCheckBig} instead. This alias will be removed in v1.0 */
+  default as CheckSquare
+} from '../icons/square-check-big';
 
 // SquareChartGantt aliases
 export {
@@ -1043,29 +1055,11 @@ export {
   default as SquareGanttChart
 } from '../icons/square-chart-gantt';
 
-// SquareArrowOutUpLeft aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutUpLeft} instead. This alias will be removed in v1.0 */
-  default as ArrowUpLeftFromSquare
-} from '../icons/square-arrow-out-up-left';
-
-// SquareAsterisk aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareAsterisk} instead. This alias will be removed in v1.0 */
-  default as AsteriskSquare
-} from '../icons/square-asterisk';
-
 // SquareCheck aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareCheck} instead. This alias will be removed in v1.0 */
   default as CheckSquare2
 } from '../icons/square-check';
-
-// SquareChevronUp aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareChevronUp} instead. This alias will be removed in v1.0 */
-  default as ChevronUpSquare
-} from '../icons/square-chevron-up';
 
 // SquareChevronDown aliases
 export {
@@ -1079,41 +1073,11 @@ export {
   default as ChevronLeftSquare
 } from '../icons/square-chevron-left';
 
-// SquareCheckBig aliases
+// SquareChevronRight aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareCheckBig} instead. This alias will be removed in v1.0 */
-  default as CheckSquare
-} from '../icons/square-check-big';
-
-// SquareDashedKanban aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDashedKanban} instead. This alias will be removed in v1.0 */
-  default as KanbanSquareDashed
-} from '../icons/square-dashed-kanban';
-
-// SquareArrowUp aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowUp} instead. This alias will be removed in v1.0 */
-  default as ArrowUpSquare
-} from '../icons/square-arrow-up';
-
-// SquareCode aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareCode} instead. This alias will be removed in v1.0 */
-  default as CodeSquare
-} from '../icons/square-code';
-
-// SquareDivide aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDivide} instead. This alias will be removed in v1.0 */
-  default as DivideSquare
-} from '../icons/square-divide';
-
-// SquareDot aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDot} instead. This alias will be removed in v1.0 */
-  default as DotSquare
-} from '../icons/square-dot';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareChevronRight} instead. This alias will be removed in v1.0 */
+  default as ChevronRightSquare
+} from '../icons/square-chevron-right';
 
 // SquareDashedMousePointer aliases
 export {
@@ -1121,17 +1085,35 @@ export {
   default as MousePointerSquareDashed
 } from '../icons/square-dashed-mouse-pointer';
 
+// SquareDashed aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDashed} instead. This alias will be removed in v1.0 */
+  default as BoxSelect
+} from '../icons/square-dashed';
+
+// SquareDivide aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDivide} instead. This alias will be removed in v1.0 */
+  default as DivideSquare
+} from '../icons/square-divide';
+
+// SquareChevronUp aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareChevronUp} instead. This alias will be removed in v1.0 */
+  default as ChevronUpSquare
+} from '../icons/square-chevron-up';
+
 // SquareEqual aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareEqual} instead. This alias will be removed in v1.0 */
   default as EqualSquare
 } from '../icons/square-equal';
 
-// SquareKanban aliases
+// SquareCode aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareKanban} instead. This alias will be removed in v1.0 */
-  default as KanbanSquare
-} from '../icons/square-kanban';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareCode} instead. This alias will be removed in v1.0 */
+  default as CodeSquare
+} from '../icons/square-code';
 
 // SquareFunction aliases
 export {
@@ -1139,11 +1121,23 @@ export {
   default as FunctionSquare
 } from '../icons/square-function';
 
-// SquareMinus aliases
+// SquareDot aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareMinus} instead. This alias will be removed in v1.0 */
-  default as MinusSquare
-} from '../icons/square-minus';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDot} instead. This alias will be removed in v1.0 */
+  default as DotSquare
+} from '../icons/square-dot';
+
+// SquareArrowOutUpRight aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareArrowOutUpRight} instead. This alias will be removed in v1.0 */
+  default as ArrowUpRightFromSquare
+} from '../icons/square-arrow-out-up-right';
+
+// SquareKanban aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareKanban} instead. This alias will be removed in v1.0 */
+  default as KanbanSquare
+} from '../icons/square-kanban';
 
 // SquareMenu aliases
 export {
@@ -1151,29 +1145,23 @@ export {
   default as MenuSquare
 } from '../icons/square-menu';
 
-// SquareChevronRight aliases
+// SquareLibrary aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareChevronRight} instead. This alias will be removed in v1.0 */
-  default as ChevronRightSquare
-} from '../icons/square-chevron-right';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareLibrary} instead. This alias will be removed in v1.0 */
+  default as LibrarySquare
+} from '../icons/square-library';
 
-// SquareDashed aliases
+// SquareMinus aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDashed} instead. This alias will be removed in v1.0 */
-  default as BoxSelect
-} from '../icons/square-dashed';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareMinus} instead. This alias will be removed in v1.0 */
+  default as MinusSquare
+} from '../icons/square-minus';
 
 // SquareM aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareM} instead. This alias will be removed in v1.0 */
   default as MSquare
 } from '../icons/square-m';
-
-// SquareMousePointer aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareMousePointer} instead. This alias will be removed in v1.0 */
-  default as Inspect
-} from '../icons/square-mouse-pointer';
 
 // SquareParkingOff aliases
 export {
@@ -1186,42 +1174,6 @@ export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareParking} instead. This alias will be removed in v1.0 */
   default as ParkingSquare
 } from '../icons/square-parking';
-
-// SquareLibrary aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareLibrary} instead. This alias will be removed in v1.0 */
-  default as LibrarySquare
-} from '../icons/square-library';
-
-// SquarePi aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePi} instead. This alias will be removed in v1.0 */
-  default as PiSquare
-} from '../icons/square-pi';
-
-// SquarePilcrow aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePilcrow} instead. This alias will be removed in v1.0 */
-  default as PilcrowSquare
-} from '../icons/square-pilcrow';
-
-// SquarePlus aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePlus} instead. This alias will be removed in v1.0 */
-  default as PlusSquare
-} from '../icons/square-plus';
-
-// SquarePower aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePower} instead. This alias will be removed in v1.0 */
-  default as PowerSquare
-} from '../icons/square-power';
-
-// SquarePlay aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePlay} instead. This alias will be removed in v1.0 */
-  default as PlaySquare
-} from '../icons/square-play';
 
 // SquarePen aliases
 export {
@@ -1241,11 +1193,17 @@ export {
   default as PenSquare
 } from '../icons/square-pen';
 
-// SquareSlash aliases
+// SquareMousePointer aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSlash} instead. This alias will be removed in v1.0 */
-  default as SlashSquare
-} from '../icons/square-slash';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareMousePointer} instead. This alias will be removed in v1.0 */
+  default as Inspect
+} from '../icons/square-mouse-pointer';
+
+// SquarePi aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePi} instead. This alias will be removed in v1.0 */
+  default as PiSquare
+} from '../icons/square-pi';
 
 // SquarePercent aliases
 export {
@@ -1253,23 +1211,59 @@ export {
   default as PercentSquare
 } from '../icons/square-percent';
 
-// SquareSigma aliases
+// SquarePilcrow aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSigma} instead. This alias will be removed in v1.0 */
-  default as SigmaSquare
-} from '../icons/square-sigma';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePilcrow} instead. This alias will be removed in v1.0 */
+  default as PilcrowSquare
+} from '../icons/square-pilcrow';
 
-// SquareSplitVertical aliases
+// SquarePlay aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSplitVertical} instead. This alias will be removed in v1.0 */
-  default as SplitSquareVertical
-} from '../icons/square-split-vertical';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePlay} instead. This alias will be removed in v1.0 */
+  default as PlaySquare
+} from '../icons/square-play';
+
+// SquarePlus aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePlus} instead. This alias will be removed in v1.0 */
+  default as PlusSquare
+} from '../icons/square-plus';
 
 // SquareScissors aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareScissors} instead. This alias will be removed in v1.0 */
   default as ScissorsSquare
 } from '../icons/square-scissors';
+
+// SquarePower aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquarePower} instead. This alias will be removed in v1.0 */
+  default as PowerSquare
+} from '../icons/square-power';
+
+// SquareSplitHorizontal aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSplitHorizontal} instead. This alias will be removed in v1.0 */
+  default as SplitSquareHorizontal
+} from '../icons/square-split-horizontal';
+
+// SquareSigma aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSigma} instead. This alias will be removed in v1.0 */
+  default as SigmaSquare
+} from '../icons/square-sigma';
+
+// SquareTerminal aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareTerminal} instead. This alias will be removed in v1.0 */
+  default as TerminalSquare
+} from '../icons/square-terminal';
+
+// SquareSplitVertical aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSplitVertical} instead. This alias will be removed in v1.0 */
+  default as SplitSquareVertical
+} from '../icons/square-split-vertical';
 
 // SquareUserRound aliases
 export {
@@ -1283,23 +1277,17 @@ export {
   default as UserSquare
 } from '../icons/square-user';
 
-// SquareTerminal aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareTerminal} instead. This alias will be removed in v1.0 */
-  default as TerminalSquare
-} from '../icons/square-terminal';
-
-// SquareSplitHorizontal aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSplitHorizontal} instead. This alias will be removed in v1.0 */
-  default as SplitSquareHorizontal
-} from '../icons/square-split-horizontal';
-
 // SquareX aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareX} instead. This alias will be removed in v1.0 */
   default as XSquare
 } from '../icons/square-x';
+
+// SquareDashedKanban aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareDashedKanban} instead. This alias will be removed in v1.0 */
+  default as KanbanSquareDashed
+} from '../icons/square-dashed-kanban';
 
 // TestTubeDiagonal aliases
 export {
@@ -1313,17 +1301,23 @@ export {
   default as AlignCenter
 } from '../icons/text-align-center';
 
+// TextAlignJustify aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TextAlignJustify} instead. This alias will be removed in v1.0 */
+  default as AlignJustify
+} from '../icons/text-align-justify';
+
 // TextAlignEnd aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TextAlignEnd} instead. This alias will be removed in v1.0 */
   default as AlignRight
 } from '../icons/text-align-end';
 
-// TextAlignJustify aliases
+// PanelTopDashed aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TextAlignJustify} instead. This alias will be removed in v1.0 */
-  default as AlignJustify
-} from '../icons/text-align-justify';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link PanelTopDashed} instead. This alias will be removed in v1.0 */
+  default as PanelTopInactive
+} from '../icons/panel-top-dashed';
 
 // TextAlignStart aliases
 export {
@@ -1337,11 +1331,23 @@ export {
   default as AlignLeft
 } from '../icons/text-align-start';
 
+// TextInitial aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TextInitial} instead. This alias will be removed in v1.0 */
+  default as LetterText
+} from '../icons/text-initial';
+
 // TextSelect aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TextSelect} instead. This alias will be removed in v1.0 */
   default as TextSelection
 } from '../icons/text-select';
+
+// TreePalm aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TreePalm} instead. This alias will be removed in v1.0 */
+  default as Palmtree
+} from '../icons/tree-palm';
 
 // TextWrap aliases
 export {
@@ -1355,17 +1361,11 @@ export {
   default as Train
 } from '../icons/tram-front';
 
-// TreePalm aliases
+// TvMinimal aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TreePalm} instead. This alias will be removed in v1.0 */
-  default as Palmtree
-} from '../icons/tree-palm';
-
-// TextInitial aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TextInitial} instead. This alias will be removed in v1.0 */
-  default as LetterText
-} from '../icons/text-initial';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TvMinimal} instead. This alias will be removed in v1.0 */
+  default as Tv2
+} from '../icons/tv-minimal';
 
 // TriangleAlert aliases
 export {
@@ -1379,17 +1379,17 @@ export {
   default as School2
 } from '../icons/university';
 
-// TvMinimal aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link TvMinimal} instead. This alias will be removed in v1.0 */
-  default as Tv2
-} from '../icons/tv-minimal';
-
 // UserRoundCheck aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UserRoundCheck} instead. This alias will be removed in v1.0 */
   default as UserCheck2
 } from '../icons/user-round-check';
+
+// UserRoundMinus aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UserRoundMinus} instead. This alias will be removed in v1.0 */
+  default as UserMinus2
+} from '../icons/user-round-minus';
 
 // UserRoundCog aliases
 export {
@@ -1397,11 +1397,11 @@ export {
   default as UserCog2
 } from '../icons/user-round-cog';
 
-// UserRoundMinus aliases
+// UserRound aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UserRoundMinus} instead. This alias will be removed in v1.0 */
-  default as UserMinus2
-} from '../icons/user-round-minus';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UserRound} instead. This alias will be removed in v1.0 */
+  default as User2
+} from '../icons/user-round';
 
 // UserRoundPlus aliases
 export {
@@ -1415,18 +1415,6 @@ export {
   default as UserX2
 } from '../icons/user-round-x';
 
-// UtensilsCrossed aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UtensilsCrossed} instead. This alias will be removed in v1.0 */
-  default as ForkKnifeCrossed
-} from '../icons/utensils-crossed';
-
-// UserRound aliases
-export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UserRound} instead. This alias will be removed in v1.0 */
-  default as User2
-} from '../icons/user-round';
-
 // UsersRound aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UsersRound} instead. This alias will be removed in v1.0 */
@@ -1439,15 +1427,27 @@ export {
   default as ForkKnife
 } from '../icons/utensils';
 
-// WandSparkles aliases
+// UtensilsCrossed aliases
 export {
-  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link WandSparkles} instead. This alias will be removed in v1.0 */
-  default as Wand2
-} from '../icons/wand-sparkles';
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link UtensilsCrossed} instead. This alias will be removed in v1.0 */
+  default as ForkKnifeCrossed
+} from '../icons/utensils-crossed';
 
 // WalletMinimal aliases
 export {
   /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link WalletMinimal} instead. This alias will be removed in v1.0 */
   default as Wallet2
 } from '../icons/wallet-minimal';
+
+// WandSparkles aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link WandSparkles} instead. This alias will be removed in v1.0 */
+  default as Wand2
+} from '../icons/wand-sparkles';
+
+// SquareSlash aliases
+export {
+  /** @deprecated The name of this icon was changed because it didn't meet our guidelines anymore, use {@link SquareSlash} instead. This alias will be removed in v1.0 */
+  default as SlashSquare
+} from '../icons/square-slash';
 
