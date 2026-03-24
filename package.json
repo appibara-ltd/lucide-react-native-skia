@@ -1,7 +1,7 @@
 {
   "name": "@appibara/lucide-react-native-skia",
   "description": "A Lucide icon library package for React Native Skia applications.",
-  "version": "0.576.0",
+  "version": "1.6.0",
   "license": "ISC",
   "homepage": "https://lucide.dev",
   "bugs": "https://github.com/lucide-icons/lucide/issues",
@@ -24,9 +24,7 @@
   "author": "Orkun Tumer",
   "amdName": "lucide-react-native-skia",
   "main": "dist/cjs/lucide-react-native-skia.js",
-  "main:umd": "dist/umd/lucide-react-native-skia.js",
   "module": "dist/esm/lucide-react-native-skia.js",
-  "unpkg": "dist/umd/lucide-react-native-skia.min.js",
   "typings": "dist/lucide-react-native-skia.d.ts",
   "react-native": "dist/esm/lucide-react-native-skia.js",
   "sideEffects": false,
@@ -44,21 +42,17 @@
   },
   "devDependencies": {
     "@lucide/rollup-plugins": "^1.0.0",
-    "@shopify/react-native-skia": "^2.2.21",
     "@types/react": "^19.1.0",
     "@vitejs/plugin-react": "^4.2.1",
     "jest-serializer-html": "^7.1.0",
     "lucide-react-native": "*",
-    "react": "19.1.0",
-    "react-native": "0.81.4",
-    "rollup": "^4.22.4",
-    "rollup-plugin-dts": "^6.1.0",
+    "rollup": "^4.59.0",
+    "rollup-plugin-dts": "^6.2.3",
     "typescript": "^5.8.3",
-    "vite": "^6.3.6",
-    "vitest": "^3.1.3"
+    "vite": "^7.2.4"
   },
   "peerDependencies": {
-    "@shopify/react-native-skia": "^2.2.21",
+    "@shopify/react-native-skia": "^2.5.3",
     "react": "^19.0.0",
     "react-native": "*"
   },
