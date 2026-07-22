@@ -26,6 +26,7 @@ import type {
   AnimatedProps,
   PublicGroupProps,
 } from "@shopify/react-native-skia";
+import { toPascalCase } from "./helper/utils/toPascalCase";
 
 type SkiaPathProps = SkiaDefaultProps<PathProps, "start" | "end">;
 type SkiaPointsProps = SkiaDefaultProps<PointsProps, "mode">;
@@ -168,7 +169,7 @@ const createLucideIcon = (iconName: string, iconNode: IconNode): LucideIcon => {
     }
   );
 
-  Component.displayName = `${iconName}`;
+  Component.displayName = toPascalCase(iconName);
 
   return Component;
 };
